@@ -1,0 +1,160 @@
+body{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+*
+*:before,
+*:after{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+img{
+   width: 100px;
+}
+
+.container{
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.weather-app{
+   width: 100%;
+   max-width: 900px;
+   border-radius: 20px;
+   margin: 0 auto;
+   overflow: hidden;
+   -webkit-box-shadow: 5px 5px 15px 4px #6b6b6b;
+   box-shadow: 5px 5px 15px 4px #6b6b6b;
+}
+
+/*weather top*/
+
+.weather-top{
+   height: 200px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   padding: 70px 100px  0px;
+   background-image: url("../img/weather-app-js.jpg");
+   background-size: cover;
+}
+
+.present-data{
+   text-align: center;
+}
+
+.present-temperature{
+   font-size: 70px;
+   color: rgb(255, 255, 255);
+}
+
+.present-clarity{
+   color: rgba(255, 255, 255, 1.0);
+   text-transform: uppercase;
+}
+
+.city-name{
+   color: rgb(255,255,255);
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+
+
+/*weather-bottom*/
+
+.weather-bottom{
+   width: 100%;
+}
+
+.days{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   margin: 30px;
+}
+
+.day{
+   text-align:center;
+   color: #434343;
+   width: 100%;
+   max-width: 150px;
+}
+
+.day-name{
+   margin-bottom: 30px;
+}
+
+.day-temperature{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.day-weather__word{
+   font-size: 14px;
+}
+
+
+
+/*today сегодня*/
+.today-block{
+   width: 100%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.today-weather{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.today-weather-img{
+   margin-right: 10px;
+}
+
+
+
+
+
+
+/*media запросы*/
+
+@media(max-width:1200px){
+
+}
+
+
+
+
+
+
+
+
+
+
